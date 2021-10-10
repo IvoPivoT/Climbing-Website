@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Climbing Website</title>
+        <style>
+        
+        body {
+            
+            background-color: rgb(255,204,113);
+        }
+        
+        #top_menu {
+
+            margin: auto;
+            border: 1px solid rgb(20,20,20);
+            border-bottom: 3px solid rgb(20, 20, 20);
+            padding:  15px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            background-color: rgb(21,215,223);
+            width: 100%;
+            
+        }
+            
+
+     
+        #main_title {
+            
+            position: relative;
+            margin: 10px;
+            text-align-last: center;
+           
+        }
+        
+        #Shoes {
+            
+            margin-top: 100px;
+            border: 1px solid rgb(20,20,20);
+         
+            padding:  15px;
+            position: static; 
+            top: 0px;
+            width: 25%;
+            float:left; 
+            height: 390px;
+            
+           
+            
+        }
+        
+        #Harness {
+            
+            margin-top: 100px;
+            border: 1px solid rgb(20,20,20);
+           
+            padding:  15px;
+            position: static;
+            top: 0px;
+            width: 25%;
+            float: right; 
+            height: 390px;
+            
+        }
+        
+        #Rope {
+            margin-top: 100px;
+            border: 1px solid rgb(20,20,20);
+         
+            padding:  15px;
+            position: static;
+            top: 0px;
+            width: 25%;
+            float: right; 
+            height: 390px;
+            margin-right: 45px;
+            
+          
+             
+            
+        }
+        
+        #shoe_pic {
+            
+            float: left;
+            border: solid 1px;
+        }
+        
+        #rope_pic {
+            
+            float: right;
+            border: solid 1px;
+        }
+        
+        #harness_pic {
+            
+            
+            border: solid 1px;
+            margin-left: 47px;
+        }
+        
+        h2 {
+            
+            font-family: arial;
+             color: rgb(238,111,104);
+        }
+        
+        h1 {
+            
+            font-family: arial;
+            color: rgb(238,111,104);
+        }
+        
+        .info_board {
+            
+            background-color: white;
+        }
+        
+        
+        
+       
+        </style>
+    </head>
+    <body>
+        <div id="top_menu">
+        
+        <h1 id="main_title">Climbing Gear</h1>
+        
+        
+           
+       </div>
+        <div  class="info_board" id="Shoes">
+        <div><h2>Shoes</h2></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis rutrum ex sed commodo. Nunc tristique sit amet nulla molestie elementum. Duis finibus eros sem, quis feugiat nulla ultrices faucibus. Cras a bibendum libero. Quisque sodales, neque eget mollis tincidunt, est arcu sollicitudin est, ac feugiat dui libero a magna. Integer non iaculis arcu.</p>
+</div>
+        <div  class="info_board" id="Harness">
+        <div><h2>Harness</h2></div>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sodales, neque eget mollis tincidunt, est arcu sollicitudin est, ac feugiat dui libero a magna. Integer non iaculis arcu. Sed volutpat tellus ligula, non pellentesque nisi ullamcorper at. Duis bibendum consequat lacinia. Integer dapibus enim sit amet arcu interdum maximus. Suspendisse dignissim rhoncus tellus, sit amet ullamcorper erat cursus sed.</p>
+</div>
+        <div  class="info_board" id="Rope">
+        <div><h2>Rope</h2></div>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sodales, neque eget mollis tincidunt, est arcu sollicitudin est, ac feugiat dui libero a magna. Integer non iaculis arcu. Sed volutpat tellus ligula, non pellentesque nisi ullamcorper at. Duis bibendum consequat lacinia. Integer dapibus enim sit amet arcu interdum maximus. Suspendisse dignissim rhoncus tellus, sit amet ullamcorper erat cursus sed.<p></div>
+        
+        <img id="shoe_pic" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-seed.png" alt="Climbing Shoes" style="width:217px;height:148px;">
+        
+        <img id="rope_pic" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-tree.png" alt="Climbing Rope" style="width:217px;height:148px;">
+        
+        <img id="harness_pic" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-seedling.png" alt="Climbing Rope" style="width:217px;height:148px;">
+        
+        
+        
+    </body>
+</html>
